@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Responses</title>
-    <style>
-        /* Add your styles here */
-    </style>
-</head>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <header>
+        <div>
+            <h1>Issue Submission Portal</h1>
+            <title>Issue Submission</title>
+            <main>
+                <nav>
+                    <a href="index.html"> Home </a>
+                    <a href="issues.html"> Issues </a>
+                    <a href="#"> Contact </a>
+                    <a href="#"> About </a>
+                </nav>
+            </main>
+        </div>
+    </header>
 <body>
 
     <h1>User Responses</h1>
 
-    <ul id="responseList">
+    <ul id="responseListx">
         <!-- The list of responses will be displayed here -->
     </ul>
 
-    <script src="responses.js"></script>
+    <table id="issueTable">
+        <thead>
+            <tr>
+                <th>Date and Time</th>
+                <th>Email</th>
+                <th>Issue</th>
+                <th>Completed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- The list of issues will be displayed here -->
+        </tbody>
+    </table>
+
 </body>
+<script src="scripts/issues.js"></script>
+
 </html>
