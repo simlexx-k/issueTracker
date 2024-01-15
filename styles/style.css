@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #e32424; /* Background color of the header */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding around the content inside the header */
+    text-align: center; /* Center-align text */
+}
+
+nav {
+    display: flex; /* Make navigation items horizontal */
+    justify-content: center; /* Center-align navigation items */
+    background-color: #000000; /* Background color of the navigation bar */
+    padding: 10px; /* Padding around the navigation items */
+}
+
+nav a {
+    color: #fff; /* Text color of navigation items */
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 15px; /* Add some spacing between navigation items */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+button  {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    color: #e32424;
+    background-color: black;
+    text-size-adjust: auto;
+}
